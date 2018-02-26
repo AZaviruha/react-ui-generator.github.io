@@ -1,0 +1,58 @@
+baseURL = "/"
+languageCode = "ru-RU"
+
+title = "React UI Generator Documentation"
+theme = "docdock"
+publishDir = "docs"
+
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+DefaultContentLanguage = "ru"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
+[params]
+    editURL = "https://github.com/react-ui-generator/react-ui-generator/docs"
+    description = "Documentation for React UI Generator"
+    author = "Alexei Zaviruha"
+    showVisitedLinks = true
+    themeStyle = "flex" # "original" or "flex" # default "flex"
+    themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
+    ordersectionsby = "weight" # ordersectionsby = "title"
+    disableHomeIcon = false # default is false
+    disableSearch = false # default is false
+    disableNavChevron = false # set true to hide next/prev chevron, default is false
+    highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
+    menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
+    enableGitInfo = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.ru]
+title = "Документация для react-ui-generator"
+weight = 1
+languageName = "Русский"
+
+[[Languages.ru.menu.shortcuts]] 
+name = "<i class='fa fa-fw fa-github'></i> Github-репозиторий"
+identifier = "ds"
+url = "https://github.com/react-ui-generator/react-ui-generator"
+weight = 10
+
+[Languages.en]
+title = "Documentation for react-ui-generator"
+weight = 2
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]] 
+name = "<i class='fa fa-fw fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/react-ui-generator/react-ui-generator"
+weight = 10
+
+[[Languages.en.menu.shortcuts]] 
+name = "<i class='fa fa-cloud-download'></i> <label>Download</label>"
+url = "https://github.com/vjeantet/hugo-theme-docdock/archive/master.zip"
+weight = 11

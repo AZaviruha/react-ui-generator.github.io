@@ -1,0 +1,19 @@
+body {
+    font-size: 14px;
+}
+
+.text-to-right {
+    text-align: right;
+}
+
+blockquote quote {
+    quotes: '\00AB' '\00BB' '\201E' '\201C';
+}
+
+blockquote quote::before {
+    content: open-quote;
+}
+
+blockquote quote::after {
+    content: close-quote;
+}

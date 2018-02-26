@@ -1,0 +1,16 @@
+body {
+    font-size: 14px;
+}
+
+.quote--text {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+}
+
+.quote--author {
+    font-size: 1.1em;
+    font-style: italic;
+    text-align: right;
+}

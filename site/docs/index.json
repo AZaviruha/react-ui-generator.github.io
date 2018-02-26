@@ -1,0 +1,22 @@
+[
+{
+	"uri": "http://localhost:9004/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": " React UI Generator a.k.a \u0026ldquo;CRUD-hammer\u0026rdquo; Набор библиотек и утилит для генерации GUI из метаданных, с помощью библиотеки React. Кровавый ынтерпрайз не так страшен, когда у тебя есть CRUD-hummer!\n Let amazingResult be the result of doing some amazing things. \n\"DOM Living Standard\"  Let amazingResult be the result of doing some amazing things.\n\"DOM Living Standard\"\n-- Пример сгенерированной формы На этом скриншоте - форма, сгенерированная с помощью набора рендререров Bootstrap. Мета-описание данной формы находится здесь.\n Основные возможности генератора:  Easy to generate entire form from the simple metadata description. Set up custom layout in JSX (not in metadata, because markup-on-json is pain). Easy to add custom types of fields (renderers). Easy to add custom layouts. Pure! (no state, just props). Easy to integrate with frameworks (Redux, etc). Nested forms. Easy to implement dynamic forms (add/remove fields at runtime, etc).  Архитектурный принцип TODO  complete this README.md see Roadmap  "
+},
+{
+	"uri": "http://localhost:9004/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://localhost:9004/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

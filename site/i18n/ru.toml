@@ -1,0 +1,44 @@
+[create-header-md]
+other = "Create a content/_header.md to customize this"
+
+[create-footer-md]
+other = "Create a content/_footer.md file to customize the footer content"
+
+[Search-placeholder]
+other = "Поиск..."
+
+[Clear-History]
+other = "Clear History"
+
+[Page]
+other = "Страница"
+
+[Next-Pages]
+other = "Следующая страница"
+
+[Previous-Pages]
+other = "Предыдущая страница"
+
+[pagination-on]
+other = "из"
+
+[Attachments-label]
+other = "Вложения"
+
+[title-404]
+other = "Ошибка"
+
+[message-404]
+other = "Упс. Кажется, такая страница отсутствует."
+
+[Go-to-homepage]
+other = "На главную"
+
+[Edit-this-page]
+other = "Отредактировать страницу"
+
+[Expand-title]
+other = "Expand me..."
+
+[last-update-on]
+other = "Дата последнего изменения:"
