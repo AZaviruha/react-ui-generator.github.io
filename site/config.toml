@@ -5,8 +5,10 @@ title = "React UI Generator Documentation"
 theme = "docdock"
 publishDir = "docs"
 
+# pygmentsUseClassic = true
 pygmentsCodeFences = true
-pygmentsStyle = "monokailight"
+# pygmentsStyle = "monokailight"
+pygmentsStyle = "friendly"
 DefaultContentLanguage = "ru"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
